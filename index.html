@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Teddy's Crews Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @font-face {
+      font-family: "Connection";
+      src: url("./assets/Connection.ttf") format("truetype");
+    }
+
+    body {
+      font-family: "Connection", sans-serif;
+      font-size: 7px;
+      background: rgb(120, 32, 32);
+      background: linear-gradient(90deg, rgba(120, 32, 32, 1) 0%, rgba(96, 35, 32, 1) 100%);
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      /* overflow: hidden; */
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    span {
+      color: white;
+    }
+
+    h1 {
+      margin-top: 2em;
+      font-size: 7em;
+    }
+
+    h4 {
+      font-size: 3.5em;
+    }
+
+    .main-container {
+      display: inline-block;
+      width: 100%;
+   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.75);
+    }
+
+    img {
+      width: 100px;
+    }
+
+    .twitter-container {
+      display: inline-block;
+      width: 90%;
+      margin: 30px;
+      height: 100%;
+
+    }
+
+    @media only screen and (min-width: 426px) {
+      body {
+        font-size: 14px;
+      }
+      .main-container {
+        margin: 0 5%;
+        padding: 5%;
+        width: 80%;
+      }
+
+      .twitter-container {
+        width: 50%;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <h1>Teddy's Crews</h1>
+    <div class='twitter-container'>
+      <a class="twitter-timeline" href="https://twitter.com/CrewsDev?ref_src=twsrc%5Etfw">Tweets by CrewsDev</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <h4>More info coming later</h4>
+    <span>Made by Tuskat</span>
+  </div>
+
+</body>
+
+</html>
